@@ -10,6 +10,7 @@ const app = express();
 const { PORT } = process.env;
 
 const controllers = require('./controllers');
+const functions = require('./functions');
 
 app.use(helmet());
 app.use(morgan('dev'));
